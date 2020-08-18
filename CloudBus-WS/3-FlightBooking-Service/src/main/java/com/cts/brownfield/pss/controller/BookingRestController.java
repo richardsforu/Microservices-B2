@@ -26,13 +26,13 @@ public class BookingRestController {
 	@Autowired
 	private BookingService bookingService;
 	
-	@Value("${name}")
-	private String name;
+	@Value("${coupon.code}")
+	private String couponCode;
 	
 	@PostMapping("/book/{id}/{numberofPassengers}")
 	public Passenger bookFlight(@RequestBody Passenger passenger,@PathVariable("id") long id,
 			@PathVariable("numberofPassengers") int numberofPassengers) {
-		System.out.println(">>>> BOOKING :::: NAME: "+name);
+		System.out.println(">>>> BOOKING :::: Coupon Code: "+couponCode);
 		Passenger bookedPassenger=bookingService.bookFlight(passenger, id, numberofPassengers);
 		List<CoPassenger> coPassengers = passenger.getCoPassengers();
 		
