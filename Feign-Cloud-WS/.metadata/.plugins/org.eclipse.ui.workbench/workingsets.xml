@@ -2,5 +2,23 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597743093982_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597743093995_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597826345980_3" label="Config-Server" name="Config-Server">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Config-Server" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597826371235_4" label="Springboot-Admin" name="Springboot-Admin">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Springboot-Admin" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597826388671_5" label="1-Fare-Service" name="1-Fare-Service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/1-Fare-Service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597826404791_6" label="2-FlightSearch-Service" name="2-FlightSearch-Service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/2-FlightSearch-Service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597826424622_7" label="3-FlightBooking-Service" name="3-FlightBooking-Service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/3-FlightBooking-Service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597828498452_8" label="4-Checkin-Service" name="4-Checkin-Service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/4-Checkin-Service" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597743096160_2" label="Window Working Set" name="Aggregate for window 1597743096159"/>
 </workingSetManager>
